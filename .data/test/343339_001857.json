@@ -1,0 +1,50 @@
+{
+  "path": "/app/.data/test/343339_001857.png",
+  "width": 160,
+  "height": 60,
+  "image_format": "png",
+  "bbox": [
+    {
+      "label": "3",
+      "xmin": 8,
+      "ymin": 0,
+      "xmax": 39,
+      "ymax": 59
+    },
+    {
+      "label": "4",
+      "xmin": 31,
+      "ymin": 0,
+      "xmax": 66,
+      "ymax": 59
+    },
+    {
+      "label": "3",
+      "xmin": 59,
+      "ymin": 0,
+      "xmax": 80,
+      "ymax": 59
+    },
+    {
+      "label": "3",
+      "xmin": 76,
+      "ymin": 0,
+      "xmax": 105,
+      "ymax": 59
+    },
+    {
+      "label": "3",
+      "xmin": 92,
+      "ymin": 0,
+      "xmax": 125,
+      "ymax": 59
+    },
+    {
+      "label": "9",
+      "xmin": 114,
+      "ymin": 0,
+      "xmax": 145,
+      "ymax": 59
+    }
+  ]
+}

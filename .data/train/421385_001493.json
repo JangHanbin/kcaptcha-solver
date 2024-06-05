@@ -1,0 +1,50 @@
+{
+  "path": "/app/.data/train/421385_001493.png",
+  "width": 160,
+  "height": 60,
+  "image_format": "png",
+  "bbox": [
+    {
+      "label": "4",
+      "xmin": 19,
+      "ymin": 0,
+      "xmax": 45,
+      "ymax": 59
+    },
+    {
+      "label": "2",
+      "xmin": 34,
+      "ymin": 0,
+      "xmax": 64,
+      "ymax": 59
+    },
+    {
+      "label": "1",
+      "xmin": 49,
+      "ymin": 0,
+      "xmax": 84,
+      "ymax": 59
+    },
+    {
+      "label": "3",
+      "xmin": 69,
+      "ymin": 0,
+      "xmax": 100,
+      "ymax": 59
+    },
+    {
+      "label": "8",
+      "xmin": 92,
+      "ymin": 0,
+      "xmax": 120,
+      "ymax": 59
+    },
+    {
+      "label": "5",
+      "xmin": 108,
+      "ymin": 0,
+      "xmax": 146,
+      "ymax": 59
+    }
+  ]
+}
