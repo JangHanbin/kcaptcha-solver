@@ -12,14 +12,11 @@ from tqdm import tqdm
 
 import model
 import dataset
-
 os.environ["TF_FORCE_GPU_ALLOW_GROWTH"] = "true"
-# gpus = tf.config.experimental.list_physical_devices("GPU")
-# for gpu in gpus:
-#     tf.config.experimental.set_memory_growth(gpu, True)
-# tf.config.experimental.set_virtual_device_configuration(
-#     gpus[0], [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=8192)]
-# )
+gpus = tf.config.experimental.list_physical_devices("GPU")
+for gpu in gpus:
+    tf.config.experimental.set_memory_growth(gpu, True)
+    tf.config.experimental.set_virtual_device_configuration(gpus[0], [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=8192)])
 
 AVAILABLE_MODELS = (
     "mobilenetv2",
